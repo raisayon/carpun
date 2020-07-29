@@ -8,3 +8,13 @@ URLField : www.example.com
 IntegerField : -1,0,1,20
 DecimalField : 0.5,3.14
 
+#Field Types : Miscellaneous Data
+BooleanField : True,False
+DateTimeField : datetime(1960,1,1,8,0,0)
+
+#Field Types: Relational Data
+ForeignKey : 1(id of record in naother table)
+ManyToManyField:NA
+
+#Field Attributes
+max_length,null,blank,choices
