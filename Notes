@@ -18,3 +18,8 @@ ManyToManyField:NA
 
 #Field Attributes
 max_length,null,blank,choices
+
+Glossary
+
+Models : Defines the structure of database tables
+Migrations : Generate scripts to change the database structure
