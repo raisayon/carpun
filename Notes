@@ -1,5 +1,10 @@
-Field types:Textual Data
+#Field types:Textual Data
 CharField : "Product Name"
 TextField : "To elaborate on my point"
 EmailField : george@site.com
 URLField : www.example.com
+
+#Field Types : Numeric Data
+IntegerField : -1,0,1,20
+DecimalField : 0.5,3.14
+
