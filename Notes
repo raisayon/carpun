@@ -39,4 +39,4 @@ Models : Defines the structure of database tables
 Migrations : Generate scripts to change the database structure
 Initial Migrations : the first migration created for a new Django app will create tables for 
                      the models that are defined
-              
+unapplied Migrations : When a migration file has been created,but hasn't been run      
