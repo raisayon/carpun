@@ -19,7 +19,18 @@ ManyToManyField:NA
 #Field Attributes
 max_length,null,blank,choices
 
-Glossary
+there are several cases in which a migration is needed
+- a new model is created, a migration creates the corresponding 
+  database table. Migrations are also needed when a field is added 
+  or removed from an existing model, or, when attributes of a field have changed.
+  All of these changes to a model's file need a corresponding change to the database,
+  and for these purposes migrations need to be created, and then run. 
+
+
+GLOSSARY
 
 Models : Defines the structure of database tables
 Migrations : Generate scripts to change the database structure
+Initial Migrations : the first migration created for a new Django app will create tables for 
+                     the models that are defined
+              
