@@ -1,1 +1,5 @@
-
+Field types:Textual Data
+CharField : "Product Name"
+TextField : "To elaborate on my point"
+EmailField : george@site.com
+URLField : www.example.com
