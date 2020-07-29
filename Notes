@@ -26,6 +26,12 @@ there are several cases in which a migration is needed
   All of these changes to a model's file need a corresponding change to the database,
   and for these purposes migrations need to be created, and then run. 
 
+COMMANDS
+#Migrations
+python3 manage.py makemigrations
+python3 manage.py showmigrations
+python3 manage.py migrate
+
 
 GLOSSARY
 
